@@ -1,27 +1,35 @@
 {
-    "files.autoSave": "off",
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "emmet.triggerExpansionOnTab": true,
-    "window.zoomLevel": 0.75,
-    "editor.minimap.enabled": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.cursorBlinking": "expand",
-    "editor.guides.bracketPairs": true,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "prettier.jsxSingleQuote": true,
-    "prettier.semi": true,
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 2,
-    "prettier.trailingComma": "es5",
-    "breadcrumbs.enabled": false,
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
-    "workbench.iconTheme": "eq-material-theme-icons-light",
-    "prisma.showPrismaDataPlatformNotification": false
+  "files.autoSave": "off",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "window.zoomLevel": 0.75,
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "expand",
+  "editor.guides.bracketPairs": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "editor.rulers": [120],
+  "prettier.printWidth": 120,
+  "prettier.trailingComma": "es5",
+  "breadcrumbs.enabled": false,
+  "workbench.colorTheme": "Houston",
+  "workbench.iconTheme": "material-icon-theme",
+  "prisma.showPrismaDataPlatformNotification": false,
 }
